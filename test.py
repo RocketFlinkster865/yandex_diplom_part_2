@@ -1,3 +1,5 @@
+# Сергеев Андрей, 6-я когорта — Финальный проект. Инженер по тестированию плюс
+
 import request
 
 
@@ -7,4 +9,3 @@ def test_create_and_get_order():
 
     response = request.get_order_by_track(track)
     assert response.status_code == 200
-
